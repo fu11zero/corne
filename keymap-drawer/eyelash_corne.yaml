@@ -91,7 +91,7 @@ layers:
   - RGB BRD
   - END
   - PG DN
-  - FUNCTION
+  - FUNC
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -145,8 +145,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - FUNCTION
-  FUNCTION:
+  - FUNC
+  FUNC:
   - '&studio_unlock'
   - F1
   - F2
