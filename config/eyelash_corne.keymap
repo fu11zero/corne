@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Number/Menu";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&kp C_MENU>;
+            bindings = <&mo 1>, <&kp K_MENU>;
         };
     };
 
@@ -78,7 +78,7 @@
                                          &mo 3         &trans        &trans                                                             &kp BSPC         &kp DEL          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         raise_layer {
