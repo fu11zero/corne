@@ -21,8 +21,8 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2200  // 600
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 30    // 10
 #define CONFIG_ZMK_POINTING_SMOOTH_SCROLLING y
 
 / {
@@ -38,6 +38,12 @@
             display-name = "Number/Menu";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp K_MENU>;
+        };
+        &mmv {
+            x-input-code = <INPUT_REL_X>;
+            y-input-code = <INPUT_REL_Y>;
+            time-to-max-speed-ms = <500>;
+            acceleration-exponent = <1>;
         };
     };
 
