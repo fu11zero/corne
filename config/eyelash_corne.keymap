@@ -39,16 +39,10 @@
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp K_MENU>;
         };
-        mmv1: mmv1 {
-            x-input-code = <INPUT_REL_X>;
-            y-input-code = <INPUT_REL_Y>;
-            time-to-max-speed-ms = <500>;
-            acceleration-exponent = <1>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
+    compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
         bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
     };
@@ -79,9 +73,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                   &mmv1 MOVE_UP                      &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &trans           &trans          &trans        &trans        &trans                   &mmv1 MOVE_LEFT  &mkp LCLK       &mmv1 MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_PLAY_PAUSE        &mmv1 MOVE_DOWN                    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                   &mmv MOVE_UP                      &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
+&trans  &trans           &trans          &trans        &trans        &trans                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_PLAY_PAUSE        &mmv MOVE_DOWN                    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                                   &trans        &trans       &mo 3                                                      &trans      &kp BSPC     &kp DEL
             >;
 
@@ -91,9 +85,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv1 MOVE_UP                      &kp CARET  &kp AMPS   &kp LPAR  &kp RPAR  &kp ASTRK &kp PIPE
-&trans  &trans        &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv1 MOVE_LEFT  &mkp LCLK       &mmv1 MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp PIPE  &kp GRAVE
-&trans  &trans        &trans        &none      &none      &mkp MB5   &kp C_PLAY_PAUSE          &mmv1 MOVE_DOWN                    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp BSLH  &kp TILDE
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                      &kp CARET  &kp AMPS   &kp LPAR  &kp RPAR  &kp ASTRK &kp PIPE
+&trans  &trans        &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp PIPE  &kp GRAVE
+&trans  &trans        &trans        &none      &none      &mkp MB5   &kp C_PLAY_PAUSE          &mmv MOVE_DOWN                    &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp BSLH  &kp TILDE
                                     &trans     &trans     &trans                                                                &mo 3      &kp BSPC   &kp DEL
             >;
 
