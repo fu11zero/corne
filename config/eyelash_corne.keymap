@@ -85,7 +85,7 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                      &kp CARET  &kp AMPS   &kp LPAR  &kp RPAR  &kp ASTRK &kp BSSPC
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                      &kp CARET  &kp AMPS   &kp LPAR  &kp RPAR  &kp ASTRK &kp BSPC
 &trans  &trans        &mkp RCLK     &mkp MCLK  &mkp LCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp PIPE  &kp GRAVE
 &trans  &trans        &trans        &none      &none      &mkp MB5   &kp C_PLAY_PAUSE          &mmv MOVE_DOWN                    &kp PLUS   &kp UNDER  &kp LBRC  &kp RBRC  &kp BSLH  &kp TILDE
                                     &trans     &trans     &trans                                                                &mo 3      &kp BSPC   &kp DEL
