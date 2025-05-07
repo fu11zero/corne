@@ -104,10 +104,10 @@
          game {
              sisplay-name = "GAME";
              bindings = <
- &trans  &trans  &trans  &trans &trans  &trans                           &trans                    &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans &trans  &trans                   &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans &trans  &trans      &trans               &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                        &kp Z   &trans  &SPACE                                                     &trans  &tog 4  &trans
+&trans  &trans  &trans  &trans &trans  &trans                           &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans &trans  &trans                   &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans &trans  &trans      &trans               &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp Z  &trans  &SPACE                                                     &trans  &tog 4  &trans
              >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
