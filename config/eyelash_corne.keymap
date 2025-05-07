@@ -64,25 +64,13 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-//         game {
-//             sisplay-name = "GAME";
-//             bindings = <
-// &trans  &trans  &trans  &trans &trans  &trans                           &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-// &trans  &trans  &trans  &trans &trans  &trans                   &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-// &trans  &trans  &trans  &trans &trans  &trans      &trans               &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-//                        &kp Z   &trans  &SPACE                                                     &trans  &trans  &trans
-//             >;
-
-//             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-//         };
-
         number {
             display-name = "NUMBER";
             bindings = <
-&trans   &kp N1   &kp N2           &kp N3        &kp N4        &kp N5                                   &mmv MOVE_UP                      &kp N6       &kp N7     &kp N8    &kp N9      &kp N0    &kp BSPC
-&kp CAPS &trans   &kp PRINTSCREEN  &kp DEL       &trans        &trans                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp LEFT     &kp DOWN   &kp UP    &kp RIGHT   &kp HOME  &kp PG_UP
-&trans   &trans   &trans           &trans        &trans        &trans     &kp C_PLAY_PAUSE              &mmv MOVE_DOWN                    &kp INSERT   &trans     &trans    &trans      &kp END   &kp PG_DN
-                                                 &trans        &trans       &mo 3                                                      &trans      &kp BSPC     &kp DEL
+&trans  &kp N1   &kp N2           &kp N3        &kp N4        &kp N5                                   &mmv MOVE_UP                      &kp N6       &kp N7     &kp N8    &kp N9      &kp N0    &kp BSPC
+&trans  &trans   &kp PRINTSCREEN  &kp DEL       &trans        &trans                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp LEFT     &kp DOWN   &kp UP    &kp RIGHT   &kp HOME  &kp PG_UP
+&trans  &trans   &trans           &trans        &trans        &trans     &kp C_PLAY_PAUSE              &mmv MOVE_DOWN                    &kp INSERT   &trans     &trans    &trans      &kp END   &kp PG_DN
+                                                &trans        &trans       &mo 3                                                      &trans      &kp BSPC     &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
@@ -112,5 +100,17 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
+
+         game {
+             sisplay-name = "GAME";
+             bindings = <
+ &trans  &trans  &trans  &trans &trans  &trans                           &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans &trans  &trans                   &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans &trans  &trans      &trans               &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp Z   &trans  &SPACE                                                     &trans  &trans  &trans
+             >;
+
+             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+         };
     };
 };
