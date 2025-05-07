@@ -91,7 +91,7 @@
                                                   &trans        &trans       &mo 3                                                      &trans      &kp BSPC     &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
+            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
         };
 
         symbol {
@@ -103,7 +103,7 @@
                                     &trans     &trans     &trans                                                                &mo 3      &kp BSPC   &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         fn {
