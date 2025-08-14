@@ -33,6 +33,11 @@
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp K_CMENU>;
         };
+        rgb_encoder: rgb_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -97,7 +102,7 @@
                                                                    &trans       &trans     &trans                                                      &trans          &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
 //         game {
