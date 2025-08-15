@@ -89,10 +89,10 @@
         fn {
             display-name = "FN";
             bindings = <
-&studio_unlock   &kp F1           &kp F2           &kp F3       &kp F4             &kp F5                                  &out OUT_BLE                     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp F11
-&trans           &trans           &kp PRINTSCREEN  &kp DEL      &trans             &trans                  &bt BT_PRV      &bt BT_CLR      &bt BT_NXT       &kp HOME         &kp PG_DN        &kp PG_UP        &kp END          &kp SCROLLLOCK   &kp F12
-&trans           &trans           &trans           &trans       &trans             &trans      &rgb_ug RGB_TOG             &out OUT_USB                     &trans           &trans           &trans           &trans           &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                                                   &trans       &trans     &trans                                                      &trans          &trans     &trans
+&studio_unlock   &kp F1           &kp F2           &kp F3       &kp F4             &kp F5                                        &out OUT_BLE                     &kp F6      &kp F7         &kp F8           &kp F9      &kp F10          &kp F11
+&trans           &trans           &kp PRINTSCREEN  &kp DEL      &trans             &trans                        &bt BT_PRV      &bt BT_CLR      &bt BT_NXT       &kp HOME    &kp PG_DN      &kp PG_UP        &kp END     &kp SCROLLLOCK   &kp F12
+&trans           &trans           &trans           &trans       &rgb_ug RGB_EFR    &rgb_ug RGB_EFF   &rgb_ug RGB_TOG             &out OUT_USB                     &trans      &trans         &trans           &trans      &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                                   &trans       &trans             &trans                                                                         &trans      &trans         &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
