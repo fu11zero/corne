@@ -180,8 +180,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFR
+  - RGB EFF
   - RGB TOG
   - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
