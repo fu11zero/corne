@@ -23,6 +23,9 @@
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 30    // 10
 #define CONFIG_ZMK_POINTING_SMOOTH_SCROLLING y
 
+#define CONFIG_ZMK_DEBOUNCE_PRESS_MS=10 
+#define CONFIG_ZMK_DEBOUNCE_RELEASE_MS=10
+
 / {
     behaviors {
         td1: td1 {
