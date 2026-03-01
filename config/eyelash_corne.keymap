@@ -9,7 +9,7 @@
 
 /* Исправление разрешения энкодера */
 &left_encoder {
-    steps = <80>;
+    steps = <40>;
 };
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 3200  // 600
