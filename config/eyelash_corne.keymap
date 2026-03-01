@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 /* Исправление разрешения энкодера */
-&encoder {
+&left_encoder {
     steps = <80>;
 };
 
