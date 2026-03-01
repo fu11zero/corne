@@ -193,6 +193,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: RGB HUD, type: held alternate}
+  - RGB HUI
   - {t: '$$mdi:transfer$$', type: trans}
